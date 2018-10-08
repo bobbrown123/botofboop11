@@ -1,6 +1,4 @@
-const Discord = require("discord.js")
-
-module.exports = (client, member, message) => {
+exports = (Discord,client, member, message) => {
   const byeChannel = member.guild.channels.find('name', 'welcome');
   if (byeChannel) {
     let byeEmbed = new Discord.RichEmbed()
