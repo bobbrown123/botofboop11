@@ -1,5 +1,5 @@
 const Discord = require("discord.js")
-
+defined discord! 
 module.exports = (client, member, message) => {
   const byeChannel = member.guild.channels.find('name', 'welcome');
   if (byeChannel) {
