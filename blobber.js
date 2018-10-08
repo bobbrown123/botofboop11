@@ -11,7 +11,7 @@ client.on("guildCreate", guild => {
   console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
   client.user.setActivity(`Serving ${client.guilds.size} servers | -help`);
 });
-
+let client = new.Discord.Embed
 client.on("guildDelete", guild => {
   // when the bot is removed from a guild.
   console.log(`I have been removed from: ${guild.name} (id: ${guild.id})`);
