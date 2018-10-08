@@ -1,1 +1,1 @@
-# botofboop11
+BotofBoop is a great moderation bot!
